@@ -49,7 +49,7 @@ h=01101000
 i= 01101001 
 hi=01101000 01101001 
 clave aleatoria= 01101111 01110000 
-![[Pasted image 20260419141122.png]]
+![](../../../images/Pasted%20image%2020260419141122.png)
 ``` zsh
 código encriptado = 0000011100011001
 ```

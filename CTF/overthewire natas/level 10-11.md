@@ -83,7 +83,7 @@ curl -u natas11:UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk --cookie "data=HmYkBwozJw4WNyAA
 ```
 
 ### Resolución en el navegador
-![[Pasted image 20260422125836.png]]
+![](../../../images/Pasted%20image%2020260422125836.png)
 ### Password
 ``` bash
 The password for natas12 is yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB

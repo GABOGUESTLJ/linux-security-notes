@@ -2,4 +2,4 @@ Un demonio está escuchando en el puerto 30002 y le dará la contraseña para ba
 
 No es necesario crear nuevas conexiones cada vez
 Para este nivel lo que debemos hacer es crear un script que nos permita hacer todas las combinaciones posibles de 4 dígitos mas nuestra contraseña del nivel anterior
-![[Pasted image 20260405154459.png]]
+![](../../../images/Pasted%20image%2020260405154459.png)
