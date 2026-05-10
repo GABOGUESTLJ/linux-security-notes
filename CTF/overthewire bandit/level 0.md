@@ -5,4 +5,4 @@ entonces el formato de el comando ssh es:
 ssh [usuario]@[host] -p [puerto] 
 y en nuestro caso seria
 ssh bandit0@bandit.labs.overthewire.org -p 2220 y después nos pedirá la contraseña que es bandit0 y nos dará acceso
-![[Pasted image 20260325114447.png]]
+![TCP/IP](images/Pasted%20image%2020260325114447.png)
