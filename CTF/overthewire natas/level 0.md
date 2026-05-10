@@ -12,6 +12,13 @@ Password: natas0
 URL:      http://natas0.natas.labs.overthewire.org
 ```
 Para resolver este nivel, lo que hacemos es conectarnos haciendo uso del comando curl,
-![](../../../images/Pasted%20image%2020260410140106.png)
+
+
+![](../../images/Pasted%20image%2020260410140106.png)
+
+
 y la contraseña es: 0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq
-![](../../../images/Pasted%20image%2020260410140132.png)
+
+
+![](../../images/Pasted%20image%2020260410140132.png)
+

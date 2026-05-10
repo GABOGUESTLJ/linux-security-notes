@@ -36,7 +36,19 @@ echo"3d3d516343746d4d6d6c315669563362" xxd -r -p | rev | base64 -d
 ```
 Después de eso, vamos a copiar el texto que nos da y vamos a hacer el trabajo en burpsuite
 Primero vamos a capturar la petición de envío del formulario, y vamos a seleccionar, send to Repeater
-![](../../../images/Pasted%20image%2020260415191430.png)
-Despues de eso, en Repeater![](../../../images/Pasted%20image%2020260415191508.png)
+
+
+![](../../images/Pasted%20image%2020260415191430.png)
+
+
+Despues de eso, en Repeater
+
+![](../../images/Pasted%20image%2020260415191508.png)
+
+
 En la línea de secret vamos a pegar nuestro código y le damos a send, despúes de eso nos va a decir nuestra contraseña
-![](../../../images/Pasted%20image%2020260415191552.png)
+
+
+![](../../images/Pasted%20image%2020260415191552.png)
+
+

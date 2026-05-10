@@ -15,9 +15,20 @@ find nos sirve para encontrar el archivo
 -size 1033c para encontrar el archivo con el tamaño solicitado
 -readable: nos especifica que sea legible
 ! -executable: el signo de exclamación significa una negación por lo tanto significa que no sea ejecutable
-![](../../../images/Pasted%20image%2020260326194130.png)
 
-![](../../../images/Pasted%20image%2020260326210900.png)
+
+![](../../images/Pasted%20image%2020260326194130.png)
+
+
+
+
+
+![](../../images/Pasted%20image%2020260326210900.png)
+
+
 
 (anotación útil sobre los tamaños a buscar)
-![](../../../images/Pasted%20image%2020260326233729.png)
+
+
+![](../../images/Pasted%20image%2020260326233729.png)
+

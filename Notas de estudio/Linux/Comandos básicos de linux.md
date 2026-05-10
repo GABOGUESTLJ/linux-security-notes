@@ -1,37 +1,85 @@
 - `PWD`= muestra donde está localizado el usuario 
-	![](../../../images/Pasted%20image%2020260316133823.png)
-- `ls` = muestra los archivos![](../../../images/Pasted%20image%2020260316134016.png)
+	
+
+![](../../images/Pasted%20image%2020260316133823.png)
+
+
+- `ls` = muestra los archivos
+
+![](../../images/Pasted%20image%2020260316134016.png)
+
+
 - `cd` = cambia de directorio
-	- `cd ..` = Sale de la carpeta actual a la anterior![](../../../images/Pasted%20image%2020260316134047.png)
+	- `cd ..` = Sale de la carpeta actual a la anterior
+
+![](../../images/Pasted%20image%2020260316134047.png)
+
+
 - `mkdir` = crea directorios
-		Para crear ficheros que no existan dentro de otros fiecheros se usaa el -p antes del definir la ruta![](../../../images/Pasted%20image%2020260321105358.png)
+		Para crear ficheros que no existan dentro de otros fiecheros se usaa el -p antes del definir la ruta
+
+![](../../images/Pasted%20image%2020260321105358.png)
+
+
 - `cat` o `touch`= crean archivos
 	- Con nano se puede ingresar al editor de texto de ese archivo
 	- Con Echo se puede escribir antes de crear el archivo, por ejemplo
-	  `echo"Hola mundo" > practica.txt`![](../../../images/Pasted%20image%2020260316134601.png)
+	  `echo"Hola mundo" > practica.txt`
+
+![](../../images/Pasted%20image%2020260316134601.png)
+
+
 - `man [comando]`= nos brinda una guía del comando
 - `rm` = Elimina archivos
-	- Ejemplo= `rm prac.txt`![639](../../../images/Pasted%20image%2020260316134823.png)
+	- Ejemplo= `rm prac.txt`
+
+![639](../../images/Pasted%20image%2020260316134823.png)
+
+
 	- Para eliminar ficheros se usa el -r
-	- ![](../../../images/Pasted%20image%2020260321105503.png)
+	- 
+
+![](../../images/Pasted%20image%2020260321105503.png)
+
+
 	- en el ejemplo anterior como solo se define la ruta de origen y no una subruta se elimina todo el contenido de la ruta
 - Rutas absolutas y relativas
 	- Absoluta= es trazar la ruta a la que nos vamos a dirigir desde el directorio raíz, 
 		ejemplo= `/home/carpeta1/carpeta2/carpeta3`, siempre va iniciar con una barra
 	- Relativo = es trazar la ruta a la que nos vamos a dirigir desde el directorio en que ya estamos, por ejemplo, ya nos encontramos en carpeta 1= `/carpeta2/carpeta3`, puede iniciar con la palabra, no necesariamente con una barra siempre y cuando este el dentro del directorio
 	- Para pasar de un directorio a otros directorios anteriores se puede hacer `cd../../..`, **cada doble punto significa una carpeta anterior**
-	- Para crear carpetas con un espacio en el nombre se deben usar las comillas dobles![](../../../images/Pasted%20image%2020260316141845.png)
+	- Para crear carpetas con un espacio en el nombre se deben usar las comillas dobles
+
+![](../../images/Pasted%20image%2020260316141845.png)
+
+
 	- Cursores: con CTRL + R se puede hacer una búsqueda recursiva de instrucciones que hemos realizado
 	- Comando **history**: lo que hace este comando es mostrar el historial de instrucciones, para ver que es lo que hemos hecho
 	- ! numero: esto lo usamos después del **history** para ejecutar x instrucción con ese numero que nos muestre el comando
-	- mv: este comando sirve para mover archivos a otros directorios, por ejemplo:![](../../../images/Pasted%20image%2020260321110612.png)
+	- mv: este comando sirve para mover archivos a otros directorios, por ejemplo:
+
+![](../../images/Pasted%20image%2020260321110612.png)
+
+
 	- Lo que podemos ver en este ejemplo es que se necesitan dos parametros
 	- mv [archivo] [ruta] , en este caso podemos decir que la ruta debe ser absoluta
-	- con mv tambien se pueden cambiar los nombres de los ficheros![](../../../images/Pasted%20image%2020260321110943.png)
+	- con mv tambien se pueden cambiar los nombres de los ficheros
+
+![](../../images/Pasted%20image%2020260321110943.png)
+
+
 	- con el argumento mv [nombre original] [nombre editado]
 	- tambien se pueden mover directorios
-	- ![](../../../images/Pasted%20image%2020260321111332.png)
-	- ==**comando sort:**== el comando sort permite ordenar  el contenido de un texto, por default va a ordenar alfabéticamente y con el argumento `-n` va a ordenar numéricamente , el comando es `sort archivo.txt` , para ordenar inversamente se hace con el argumento -r, `sort -r archivo.txt`, para eliminar los elementos duplicados se usa el comando -u, `sort -u archivo.txt > archivo_sin_duplicar.txt`, para guardar la lista ordenada se usa el comando, `sort archivo.txt > archivo_ordenado.txt` ,  para ordenar por columnas especificas se usa el `-k`, por ejemplo, tenemos![48](../../../images/Pasted%20image%2020260327195515.png), y queremos filtrar solo la edad , lo que hacemos es `sort -k 2 archivo.txt`, ya que lo que buscamos es la segunda columna
+	- 
+
+![](../../images/Pasted%20image%2020260321111332.png)
+
+
+	- ==**comando sort:**== el comando sort permite ordenar  el contenido de un texto, por default va a ordenar alfabéticamente y con el argumento `-n` va a ordenar numéricamente , el comando es `sort archivo.txt` , para ordenar inversamente se hace con el argumento -r, `sort -r archivo.txt`, para eliminar los elementos duplicados se usa el comando -u, `sort -u archivo.txt > archivo_sin_duplicar.txt`, para guardar la lista ordenada se usa el comando, `sort archivo.txt > archivo_ordenado.txt` ,  para ordenar por columnas especificas se usa el `-k`, por ejemplo, tenemos
+
+![48](../../images/Pasted%20image%2020260327195515.png)
+
+, y queremos filtrar solo la edad , lo que hacemos es `sort -k 2 archivo.txt`, ya que lo que buscamos es la segunda columna
 	- ==**Comando uniq:**== lo que hace este comando es eliminar lineas duplicadas de un archivo
 	- los argumentos más comunes son:
 	  - `-c`: Muestra el número de ocurrencias de cada línea duplicada.
@@ -47,9 +95,17 @@
 	- ==**Comando strings:**== el comando strings busca caracteres imprimibles de archivos binarios
 	- su sintaxis es: `strings archivo.bin`, esto permite mostrarlo por consola, para guardarlo dentro de un archivo, lo que hacemos es `strings archivo.bin > archivo.txt`, 
 	- ==**Comando base64:**== este comando sirve para codificar y decodificar 
-	- ![](../../../images/Pasted%20image%2020260327201519.png)
+	- 
+
+![](../../images/Pasted%20image%2020260327201519.png)
+
+
 	- y para decodificar un archivo se usa el parámetro -d
-	- ![](../../../images/Pasted%20image%2020260327201623.png)
+	- 
+
+![](../../images/Pasted%20image%2020260327201623.png)
+
+
 	- **==Comando tr:==** el comando tr sirve para remplazar caracteres y eliminación de caracteres, se puede usar el argumento `-d` para eliminar caracteres especificos, para eliminar los caracteres repeticos se usa el arumento `-s`, 
 	- ejemplos:
 	- echo "hola mundo" | tr 'a-z' 'A-Z' : este comando imprime "HOLA MUNDO"
@@ -255,7 +311,11 @@ El comando cron ejecuta scripts en intervalos de tiempo específicos
 Cada línea en un archivo crontab sigue orden de 5 asteriscos:
 `***** [Comando a ejecutar]`
 A continuación se explica cada uno de estos asteriscos
-![](../../../images/Pasted%20image%2020260405134223.png)
+
+
+![](../../images/Pasted%20image%2020260405134223.png)
+
+
 #### Ejemplos
 `*****`: Cada minuto de cada hora de cada día de cada mes
 `00***`: Cada medianoche de cada día de cada mes, ya que dice, en el minuto 0 de la hora 0
@@ -272,7 +332,11 @@ A continuación se explica cada uno de estos asteriscos
 
 ### El Concepto de Hash (MD5, SHA, etc.)
 Un hash no es una contraseña, es una huella digital hecha por cálculos matemáticos, es fácil convertir una frase a Hash pero no viceversa, si es md5 siempre va a tener 32 caracteres
-![](../../../images/Pasted%20image%2020260405141429.png)
+
+
+![](../../images/Pasted%20image%2020260405141429.png)
+
+
 Sus usos en la ciberseguridad es comprar el hash de un archivo descargador con el hash original para saber si este fue alterado por un atacante, sirve también para ocultar nombres de rutas
 
 ### Grep

@@ -9,18 +9,54 @@
 
 | Comando | Acción | Descripción Técnica |
 | :--- | :--- | :--- |
-| `pwd` | Localización | Muestra dónde está localizado el usuario. ![](../../../images/Pasted%20image%2020260316133823.png) |
-| `ls` | Listar | Muestra los archivos del directorio actual. ![](../../../images/Pasted%20image%2020260316134016.png) |
-| `cd` | Cambiar | Cambia de directorio. `cd ..` sale a la carpeta anterior. ![](../../../images/Pasted%20image%2020260316134047.png) |
-| `mkdir` | Directorios | Crea directorios. `-p` crea rutas completas aunque no existan los padres. ![](../../../images/Pasted%20image%2020260321105358.png) |
-| `rm` | Eliminar | `rm [archivo]`. Para ficheros/directorios usa `-r`. Sin subruta, elimina todo el contenido. ![](../../../images/Pasted%20image%2020260321105503.png) |
-| `mv` | Mover/Renombrar | Mueve archivos a rutas (preferiblemente absolutas) o renombra: `mv [orig] [edit]`. ![](../../../images/Pasted%20image%2020260321110612.png) ![](../../../images/Pasted%20image%2020260321110943.png) ![](../../../images/Pasted%20image%2020260321111332.png) |
+| `pwd` | Localización | Muestra dónde está localizado el usuario. 
+
+![](../../images/Pasted%20image%2020260316133823.png)
+
+ |
+| `ls` | Listar | Muestra los archivos del directorio actual. 
+
+![](../../images/Pasted%20image%2020260316134016.png)
+
+ |
+| `cd` | Cambiar | Cambia de directorio. `cd ..` sale a la carpeta anterior. 
+
+![](../../images/Pasted%20image%2020260316134047.png)
+
+ |
+| `mkdir` | Directorios | Crea directorios. `-p` crea rutas completas aunque no existan los padres. 
+
+![](../../images/Pasted%20image%2020260321105358.png)
+
+ |
+| `rm` | Eliminar | `rm [archivo]`. Para ficheros/directorios usa `-r`. Sin subruta, elimina todo el contenido. 
+
+![](../../images/Pasted%20image%2020260321105503.png)
+
+ |
+| `mv` | Mover/Renombrar | Mueve archivos a rutas (preferiblemente absolutas) o renombra: `mv [orig] [edit]`. 
+
+![](../../images/Pasted%20image%2020260321110612.png)
+
+ 
+
+![](../../images/Pasted%20image%2020260321110943.png)
+
+ 
+
+![](../../images/Pasted%20image%2020260321111332.png)
+
+ |
 
 ### 💡 Lógica de Rutas y Atajos
 * **Ruta Absoluta:** Trazado desde el directorio raíz `/`. Ejemplo: `/home/carpeta1/carpeta2`. Siempre inicia con `/`.
 * **Ruta Relativa:** Trazado desde el directorio actual. Ejemplo: `carpeta2/archivo.txt`.
 * **Multinivel:** `cd ../../../` para retroceder múltiples carpetas (cada `..` es un nivel).
-* **Nombres con Espacios:** Obligatorio usar comillas dobles: `"Nombre con Espacio"`. ![](../../../images/Pasted%20image%2020260316141845.png)
+* **Nombres con Espacios:** Obligatorio usar comillas dobles: `"Nombre con Espacio"`. 
+
+![](../../images/Pasted%20image%2020260316141845.png)
+
+
 * **Control de Cursores:** * `CTRL + R`: Búsqueda recursiva de instrucciones previas.
     * `history`: Muestra el historial de instrucciones.
     * `! [numero]`: Ejecuta la instrucción específica del historial.
@@ -32,7 +68,11 @@
 ### 🔹 Creación y Edición
 * **Archivos:** `cat` o `touch` crean archivos. Con `nano` ingresas al editor de texto.
 * **Echo:** Permite escribir antes de crear el archivo. 
-    * `echo "Hola mundo" > practica.txt`. ![](../../../images/Pasted%20image%2020260316134601.png)
+    * `echo "Hola mundo" > practica.txt`. 
+
+![](../../images/Pasted%20image%2020260316134601.png)
+
+
 * **Man:** `man [comando]` brinda la guía oficial del comando.
 
 ### 🔹 Procesamiento de Datos (Data Wrangling)
@@ -125,7 +165,11 @@ Edita permisos sumando valores. Máximo: 777.
 
 ### 🕒 Crontab (Cron)
 Ejecuta scripts en intervalos. Estructura de 5 asteriscos: `* * * * * [Comando]`.
-![](../../../images/Pasted%20image%2020260405134223.png)
+
+
+![](../../images/Pasted%20image%2020260405134223.png)
+
+
 * `*/15 * * * *`: Cada 15 min.
 * `0 9-15 * * *`: Cada hora de 9:00 a 15:00.
 * **Rutas:** `/etc/crontab` (principal), `/var/spool/cron/crontabs/` (usuario).
@@ -153,9 +197,21 @@ Ejecuta scripts en intervalos. Estructura de 5 asteriscos: `* * * * * [Comando]`
     * `-l [n]`: Muestra solo los primeros `n` bytes (ver encabezado).
     * `-p`: Solo código hexadecimal plano.
     * `-r -p`: Revierte hexadecimal a lenguaje plano/binario.
-* **base64:** Codifica y decodifica (`-d`). ![](../../../images/Pasted%20image%2020260327201519.png) ![](../../../images/Pasted%20image%2020260327201623.png)
+* **base64:** Codifica y decodifica (`-d`). 
+
+![](../../images/Pasted%20image%2020260327201519.png)
+
+ 
+
+![](../../images/Pasted%20image%2020260327201623.png)
+
+
 * **Hash:** Huella digital matemática (MD5, SHA). Inevitablemente única.
-    * **MD5:** Siempre 32 caracteres. ![](../../../images/Pasted%20image%2020260405141429.png)
+    * **MD5:** Siempre 32 caracteres. 
+
+![](../../images/Pasted%20image%2020260405141429.png)
+
+
     * **Uso:** Comparar integridad de archivos o ocultar rutas.
 * **diff:** Compara líneas entre archivos.
     * `<`: Primera línea.

